@@ -35,6 +35,6 @@ async def updateProduct(productid: str, product: Product, response: Response):
     return await updateProduct_controller(productid, product, response)
 
 
-@ProductRouter.delete("/deleteproduct/{productid}")
-async def delete_product(productid: str, response: Response):
-    return await deleteProduct_controller(productid, response)
+# @ProductRouter.delete("/deleteproduct/{productid}")
+# async def delete_product(productid: str, response: Response):
+#     return await deleteProduct_controller(productid, response)
